@@ -5,5 +5,5 @@
  * Date: 04.03.2016
  * Time: 17:10
  */
-werwerwerwer
+echo "Test changes";
 ?>
