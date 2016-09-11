@@ -7,13 +7,6 @@
     $cnt/=$limit;
     $cnt=intval($cnt);
     $page=$_GET['page'];
-if(empty($page) || $page < 0) {
-    $page = 1;
-}
-if($page > $cnt) {
-    $page = $cnt;
-}
-$start = $page * $limit - $limit;
 ?>
 <!DOCTYPE html>
 <html lang="en">
